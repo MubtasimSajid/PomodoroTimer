@@ -16,9 +16,9 @@ A GUI **timer** app to utilise the Pomodoro technique of productivity, built wit
 
 ## Screenshots
 ![Welcome Page - Light](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/main/Screenshots/WelcomeScreen_light.png)
-![Welcome Page - Dark](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/tree/main/Screenshots/WelcomeScreen_dark.png)
-![Countdown for Work](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/tree/main/Screenshots/WorkTimer_dark.png)
-![Countdown for Break](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/tree/main/Screenshots/ShortBreak_light.png)
+![Welcome Page - Dark](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/main/Screenshots/WelcomeScreen_dark.png)
+![Countdown for Work](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/main/Screenshots/WorkTimer_dark.png)
+![Countdown for Break](https://raw.githubusercontent.com/MubtasimSajid/PomodoroTimer/main/Screenshots/ShortBreak_light.png)
 
 ## Folder Structure
 ```
