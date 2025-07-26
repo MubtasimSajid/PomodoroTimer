@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartingController">
+   <children>
+      <VBox alignment="CENTER_LEFT" layoutX="63.0" prefHeight="345.0" prefWidth="273.0" spacing="20.0">
+         <children>
+            <Label text="Work Duration">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="192.0" text="Break Duration">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="220.0" text="No. of Cycles">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="248.0" text="Long Break Duration">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label text="Theme">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="315.0" layoutY="3.0" prefHeight="337.0" prefWidth="221.0" spacing="22.0">
+         <children>
+            <Spinner fx:id="workDurationSpinner" prefHeight="25.0" prefWidth="292.0" />
+            <Spinner fx:id="breakDurationSpinner" layoutX="22.0" layoutY="170.0" prefHeight="25.0" prefWidth="292.0" />
+            <Spinner fx:id="noOfCyclesSpinner" layoutX="22.0" layoutY="197.0" prefHeight="25.0" prefWidth="292.0" />
+            <Spinner fx:id="longBreakDurationSpinner" layoutX="22.0" layoutY="225.0" prefHeight="25.0" prefWidth="292.0" />
+            <ChoiceBox fx:id="themeChoiceBox" prefHeight="25.0" prefWidth="291.0" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="303.0" prefHeight="74.0" prefWidth="600.0" spacing="70.0">
+         <children>
+            <Button fx:id="startButton" mnemonicParsing="false" onAction="#handleStart" prefHeight="44.0" prefWidth="89.0" text="Start">
+               <font>
+                  <Font name="Roboto Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="quitButton" layoutX="265.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleQuit" prefHeight="44.0" prefWidth="89.0" text="Quit" textFill="RED">
+               <font>
+                  <Font name="Roboto Regular" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
